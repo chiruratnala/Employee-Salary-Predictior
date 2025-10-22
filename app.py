@@ -17,7 +17,7 @@ company_size_encoder = load_encoder("company_size")
 
 # Streamlit App
 st.set_page_config(page_title="Employee Salary Classification", page_icon="💼", layout="centered")
-st.title("💼 Employee Salary Classification ")
+st.title("💼 Salary Predictor ")
 st.markdown("Predict an employee's salary class based on input features.")
 
 # Sidebar Inputs
